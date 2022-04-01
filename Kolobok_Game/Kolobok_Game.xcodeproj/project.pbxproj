@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0709A627F6DFB000D6199A /* SKTAction+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0709A527F6DFB000D6199A /* SKTAction+Ext.swift */; };
+		FA62FC0527F6038B00B9FF91 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62FC0427F6038B00B9FF91 /* GameOver.swift */; };
+		FA62FC0827F6128800B9FF91 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62FC0727F6128800B9FF91 /* SKTAudio.swift */; };
+		FA6BC4F227F4867A00B0C911 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BC4F127F4867A00B0C911 /* Types.swift */; };
+		FA6BC4F827F492BE00B0C911 /* Krungthep.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6BC4F727F492BE00B0C911 /* Krungthep.ttf */; };
+		FA751FE127F35A3600404938 /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA751FE027F35A3600404938 /* CGFloat+Ext.swift */; };
+		FAADB19727F22E1F00111856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB19627F22E1F00111856 /* AppDelegate.swift */; };
+		FAADB19927F22E1F00111856 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAADB19827F22E1F00111856 /* GameScene.sks */; };
+		FAADB19B27F22E1F00111856 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAADB19A27F22E1F00111856 /* Actions.sks */; };
+		FAADB19D27F22E1F00111856 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB19C27F22E1F00111856 /* GameScene.swift */; };
+		FAADB19F27F22E1F00111856 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB19E27F22E1F00111856 /* GameViewController.swift */; };
+		FAADB1A227F22E1F00111856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAADB1A027F22E1F00111856 /* Main.storyboard */; };
+		FAADB1A427F22E2000111856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAADB1A327F22E2000111856 /* Assets.xcassets */; };
+		FAADB1B827F231AA00111856 /* Sound_jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAADB1B427F231AA00111856 /* Sound_jump.wav */; };
+		FAADB1B927F231AA00111856 /* Sound_coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAADB1B527F231AA00111856 /* Sound_coin.mp3 */; };
+		FAADB1BA27F231AA00111856 /* Sound_collision.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAADB1B627F231AA00111856 /* Sound_collision.wav */; };
+		FAADB1BB27F231AA00111856 /* Sound_backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAADB1B727F231AA00111856 /* Sound_backgroundMusic.mp3 */; };
+		FAADB1CA27F2404400111856 /* CGPoint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB1C927F2404400111856 /* CGPoint+Ext.swift */; };
+		FAB88A9127F59B6B00990819 /* ScoreGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB88A9027F59B6B00990819 /* ScoreGenerator.swift */; };
+		FAF56A5427F5BF7600D70222 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF56A5327F5BF7600D70222 /* MainMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA0709A527F6DFB000D6199A /* SKTAction+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTAction+Ext.swift"; sourceTree = "<group>"; };
+		FA62FC0427F6038B00B9FF91 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		FA62FC0727F6128800B9FF91 /* SKTAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		FA6BC4F127F4867A00B0C911 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		FA6BC4F727F492BE00B0C911 /* Krungthep.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Krungthep.ttf; sourceTree = "<group>"; };
+		FA751FE027F35A3600404938 /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
+		FAADB19327F22E1F00111856 /* Kolobok_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kolobok_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAADB19627F22E1F00111856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAADB19827F22E1F00111856 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FAADB19A27F22E1F00111856 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FAADB19C27F22E1F00111856 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FAADB19E27F22E1F00111856 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FAADB1A127F22E1F00111856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAADB1A327F22E2000111856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAADB1A527F22E2000111856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAADB1B427F231AA00111856 /* Sound_jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound_jump.wav; sourceTree = "<group>"; };
+		FAADB1B527F231AA00111856 /* Sound_coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_coin.mp3; sourceTree = "<group>"; };
+		FAADB1B627F231AA00111856 /* Sound_collision.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound_collision.wav; sourceTree = "<group>"; };
+		FAADB1B727F231AA00111856 /* Sound_backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_backgroundMusic.mp3; sourceTree = "<group>"; };
+		FAADB1C927F2404400111856 /* CGPoint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Ext.swift"; sourceTree = "<group>"; };
+		FAB88A9027F59B6B00990819 /* ScoreGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGenerator.swift; sourceTree = "<group>"; };
+		FAF56A5327F5BF7600D70222 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAADB19027F22E1F00111856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6BC4F027F4866900B0C911 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BC4F127F4867A00B0C911 /* Types.swift */,
+				FAB88A9027F59B6B00990819 /* ScoreGenerator.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		FA6BC4F627F4929200B0C911 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BC4F727F492BE00B0C911 /* Krungthep.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FAADB18A27F22E1F00111856 = {
+			isa = PBXGroup;
+			children = (
+				FAADB19527F22E1F00111856 /* Kolobok_Game */,
+				FAADB19427F22E1F00111856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAADB19427F22E1F00111856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAADB19327F22E1F00111856 /* Kolobok_Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAADB19527F22E1F00111856 /* Kolobok_Game */ = {
+			isa = PBXGroup;
+			children = (
+				FAADB19627F22E1F00111856 /* AppDelegate.swift */,
+				FAADB19827F22E1F00111856 /* GameScene.sks */,
+				FAADB19A27F22E1F00111856 /* Actions.sks */,
+				FA6BC4F027F4866900B0C911 /* Types */,
+				FA6BC4F627F4929200B0C911 /* Fonts */,
+				FAADB1C827F2400E00111856 /* MyUtils */,
+				FAADB1B327F231AA00111856 /* Sound */,
+				FAADB1B127F2301500111856 /* Scenes */,
+				FAADB1AF27F2300200111856 /* Controllers */,
+				FAADB1AD27F22FE000111856 /* Resources */,
+			);
+			path = Kolobok_Game;
+			sourceTree = "<group>";
+		};
+		FAADB1AD27F22FE000111856 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAADB1A027F22E1F00111856 /* Main.storyboard */,
+				FAADB1A327F22E2000111856 /* Assets.xcassets */,
+				FAADB1A527F22E2000111856 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAADB1AF27F2300200111856 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAADB19E27F22E1F00111856 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAADB1B127F2301500111856 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FAADB19C27F22E1F00111856 /* GameScene.swift */,
+				FAF56A5327F5BF7600D70222 /* MainMenu.swift */,
+				FA62FC0427F6038B00B9FF91 /* GameOver.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FAADB1B327F231AA00111856 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				FAADB1B427F231AA00111856 /* Sound_jump.wav */,
+				FAADB1B527F231AA00111856 /* Sound_coin.mp3 */,
+				FAADB1B627F231AA00111856 /* Sound_collision.wav */,
+				FAADB1B727F231AA00111856 /* Sound_backgroundMusic.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		FAADB1C827F2400E00111856 /* MyUtils */ = {
+			isa = PBXGroup;
+			children = (
+				FAADB1C927F2404400111856 /* CGPoint+Ext.swift */,
+				FA751FE027F35A3600404938 /* CGFloat+Ext.swift */,
+				FA62FC0727F6128800B9FF91 /* SKTAudio.swift */,
+				FA0709A527F6DFB000D6199A /* SKTAction+Ext.swift */,
+			);
+			path = MyUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAADB19227F22E1F00111856 /* Kolobok_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAADB1A827F22E2000111856 /* Build configuration list for PBXNativeTarget "Kolobok_Game" */;
+			buildPhases = (
+				FAADB18F27F22E1F00111856 /* Sources */,
+				FAADB19027F22E1F00111856 /* Frameworks */,
+				FAADB19127F22E1F00111856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kolobok_Game;
+			productName = Kolobok_Game;
+			productReference = FAADB19327F22E1F00111856 /* Kolobok_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAADB18B27F22E1F00111856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAADB19227F22E1F00111856 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FAADB18E27F22E1F00111856 /* Build configuration list for PBXProject "Kolobok_Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAADB18A27F22E1F00111856;
+			productRefGroup = FAADB19427F22E1F00111856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAADB19227F22E1F00111856 /* Kolobok_Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAADB19127F22E1F00111856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAADB1BB27F231AA00111856 /* Sound_backgroundMusic.mp3 in Resources */,
+				FAADB1B827F231AA00111856 /* Sound_jump.wav in Resources */,
+				FAADB1A227F22E1F00111856 /* Main.storyboard in Resources */,
+				FAADB19927F22E1F00111856 /* GameScene.sks in Resources */,
+				FAADB1A427F22E2000111856 /* Assets.xcassets in Resources */,
+				FAADB19B27F22E1F00111856 /* Actions.sks in Resources */,
+				FA6BC4F827F492BE00B0C911 /* Krungthep.ttf in Resources */,
+				FAADB1B927F231AA00111856 /* Sound_coin.mp3 in Resources */,
+				FAADB1BA27F231AA00111856 /* Sound_collision.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAADB18F27F22E1F00111856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAADB1CA27F2404400111856 /* CGPoint+Ext.swift in Sources */,
+				FA62FC0827F6128800B9FF91 /* SKTAudio.swift in Sources */,
+				FAADB19D27F22E1F00111856 /* GameScene.swift in Sources */,
+				FAB88A9127F59B6B00990819 /* ScoreGenerator.swift in Sources */,
+				FA62FC0527F6038B00B9FF91 /* GameOver.swift in Sources */,
+				FAF56A5427F5BF7600D70222 /* MainMenu.swift in Sources */,
+				FAADB19F27F22E1F00111856 /* GameViewController.swift in Sources */,
+				FA6BC4F227F4867A00B0C911 /* Types.swift in Sources */,
+				FA751FE127F35A3600404938 /* CGFloat+Ext.swift in Sources */,
+				FAADB19727F22E1F00111856 /* AppDelegate.swift in Sources */,
+				FA0709A627F6DFB000D6199A /* SKTAction+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAADB1A027F22E1F00111856 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAADB1A127F22E1F00111856 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAADB1A627F22E2000111856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAADB1A727F22E2000111856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAADB1A927F22E2000111856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5882J3SK56;
+				INFOPLIST_FILE = Kolobok_Game/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SWIFT-iOS.Kolobok-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAADB1AA27F22E2000111856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5882J3SK56;
+				INFOPLIST_FILE = Kolobok_Game/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SWIFT-iOS.Kolobok-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAADB18E27F22E1F00111856 /* Build configuration list for PBXProject "Kolobok_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAADB1A627F22E2000111856 /* Debug */,
+				FAADB1A727F22E2000111856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAADB1A827F22E2000111856 /* Build configuration list for PBXNativeTarget "Kolobok_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAADB1A927F22E2000111856 /* Debug */,
+				FAADB1AA27F22E2000111856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAADB18B27F22E1F00111856 /* Project object */;
+}
